@@ -12,245 +12,198 @@ It is intentionally provided to you in plain text so it can be accessible to cli
 - Clone and maintain a studio-specific version so your team has a consistent, opinionated starting point.
 - Fork, remix, etc.
 
-================================================================
-PROJECT OVERVIEW
-================================================================
+## Project Overview
+**Project Title:** [PROJECT_TITLE]
+**Client/Organization:** [CLIENT_NAME]
+**Designer/Studio:** [DESIGNER_OR_STUDIO_NAME]
+**Primary Contact:** [DESIGNER_CONTACT_NAME]
+**Email:** [DESIGNER_EMAIL]
+**Slack/PM Channel (if applicable):** [CHANNEL_NAME_OR_URL]
+**Date Prepared:** [DATE]
 
-Project Title: [PROJECT_TITLE]
-Client/Organization: [CLIENT_NAME]
-Designer/Studio: [DESIGNER_OR_STUDIO_NAME]
-Primary Contact: [DESIGNER_CONTACT_NAME]
-Email: [DESIGNER_EMAIL]
-Slack/PM Channel (if applicable): [CHANNEL_NAME_OR_URL]
-Date Prepared: [DATE]
-
-Project Summary:
+**Project Summary:**
 [SHORT_DESCRIPTION_OF_PRODUCT_AND_SCOPE
 E.G. "Responsive marketing site, key flows for signup, login, and dashboard."]
 
-
-================================================================
-DELIVERABLE SUMMARY
-================================================================
-
+## Deliverable Summary
 This package contains design deliverables intended for DIGITAL use
 (web, mobile, or product UI), including source files and exportable
 assets for implementation.
 
-Product / platform(s):
+**Product / platform(s):**
 - [WEB / IOS / ANDROID / DESKTOP / OTHER]
-- Supported breakpoints or platforms: [E.G. MOBILE, TABLET, DESKTOP]
+- **Supported breakpoints or platforms:** [E.G. MOBILE, TABLET, DESKTOP]
 
-Design stage:
+**Design stage:**
 - [DISCOVERY WIREFRAMES / HI-FI VISUAL DESIGN / PRODUCTION-READY / DESIGN SYSTEM]
 
-
-================================================================
-SOFTWARE & ACCESS REQUIREMENTS
-================================================================
-
+## Software & Access Requirements
 Some files require specific tools or accounts to view or inspect
 properly.
 
-Primary design tools used:
+**Primary design tools used:**
 - [E.G. Figma – VERSION, TEAM/ORG NAME]
 - [Sketch – VERSION]
 - [Adobe XD – VERSION]
 - [Other: E.G. After Effects, Illustrator]
 
-Handoff / inspection tools:
+**Handoff / inspection tools:**
 - Developers should use [FIGMA DEV MODE / ZEPLIN / ABSTRACT / OTHER]
   to inspect spacing, typography, colors, and exportable assets.
 
-Links and access:
-- Main design file: [URL_TO_MAIN_DESIGN_FILE]
-- Prototypes (if separate): [URL_1], [URL_2]
-- Design system / component library: [URL_TO_LIBRARY]
-- Documentation / spec doc: [URL_TO_CONFLUENCE_NOTION_ETC]
+**Links and access:**
+- **Main design file:** [URL_TO_MAIN_DESIGN_FILE]
+- **Prototypes (if separate):** [URL_1], [URL_2]
+- **Design system / component library:** [URL_TO_LIBRARY]
+- **Documentation / spec doc:** [URL_TO_CONFLUENCE_NOTION_ETC]
 
-Note:
+**Note:**
 - Some native/source files may not open correctly without the listed
   software or appropriate plan/access.
 - For implementation, the online handoff/inspection links above
   should be considered the source of truth.
 
+## Information Architecture & Flows
+**High-level IA:**
+- **Primary navigation structure:** [BRIEF_DESCRIPTION_OR_LINK_TO_SITEMAP]
+- **Key sections / modules:** [LIST_OR_LINK]
 
-================================================================
-INFORMATION ARCHITECTURE & FLOWS
-================================================================
-
-High-level IA:
-- Primary navigation structure: [BRIEF_DESCRIPTION_OR_LINK_TO_SITEMAP]
-- Key sections / modules: [LIST_OR_LINK]
-
-User flows covered in this handoff:
+**User flows covered in this handoff:**
 - [FLOW_NAME] – [BRIEF_DESCRIPTION] – [ENTRY_POINT → EXIT_POINT]
 - [FLOW_NAME] – [BRIEF_DESCRIPTION]
 - [ADD_OR_REMOVE_LINES_AS_NEEDED]
 
-Flow documentation:
-- User flow diagrams: [URL_OR_FILE_REFERENCE]
-- Edge/empty/error states are documented for:
+**Flow documentation:**
+- **User flow diagrams:** [URL_OR_FILE_REFERENCE]
+- **Edge/empty/error states are documented for:**
   [LIST_OF_FLOWS_OR "SEE ANNOTATIONS IN DESIGN FILE"]
 
+## Design System & Standards
+**Design system:**
+- **System name:** [DESIGN_SYSTEM_NAME]
+- **Location:** [LINK_TO_LIBRARY_OR_FILE]
+- **Status:** [MVP / IN_PROGRESS / MATURE]
 
-================================================================
-DESIGN SYSTEM & STANDARDS
-================================================================
+**Tokens / styles:**
+- **Color styles defined and applied across screens:** [YES/NO/MIXED]
+- **Text styles defined and applied:** [YES/NO/MIXED]
+- **Spacing and layout tokens (if any):** [BRIEF_NOTES]
 
-Design system:
-- System name: [DESIGN_SYSTEM_NAME]
-- Location: [LINK_TO_LIBRARY_OR_FILE]
-- Status: [MVP / IN_PROGRESS / MATURE]
+**Component library:**
+- **Core components:** [BUTTONS, INPUTS, MODALS, CARDS, NAVIGATION, ETC.]
+- **States included:** [DEFAULT / HOVER / ACTIVE / DISABLED / ERROR / LOADING]
+- **Platform considerations:** [WEB / IOS / ANDROID / OTHER]
 
-Tokens / styles:
-- Color styles defined and applied across screens: [YES/NO/MIXED]
-- Text styles defined and applied: [YES/NO/MIXED]
-- Spacing and layout tokens (if any): [BRIEF_NOTES]
-
-Component library:
-- Core components: [BUTTONS, INPUTS, MODALS, CARDS, NAVIGATION, ETC.]
-- States included: [DEFAULT / HOVER / ACTIVE / DISABLED / ERROR / LOADING]
-- Platform considerations: [WEB / IOS / ANDROID / OTHER]
-
-
-================================================================
-ACCESSIBILITY & CONTENT NOTES
-================================================================
-
-Accessibility:
-- Target guidelines: [E.G. WCAG 2.1 AA, PLATFORM-SPECIFIC GUIDES]
-- Color contrast checked for key text and UI elements: [YES/NO]
+## Accessibility & Content Notes
+**Accessibility:**
+- **Target guidelines:** [E.G. WCAG 2.1 AA, PLATFORM-SPECIFIC GUIDES]
+- **Color contrast checked for key text and UI elements:** [YES/NO]
 - Focus states and keyboard navigation considered (web): [YES/NO]
 - Screen reader / semantic considerations documented here:
   [LINK_OR_NOTES]
 
-Copy:
-- Source of approved copy: [COPY_DOC_LINK / CMS_LINK]
-- Status: [FINAL / REQUIRES_COPY_REVIEW]
-- Localization / translation considerations:
+**Copy:**
+- **Source of approved copy:** [COPY_DOC_LINK / CMS_LINK]
+- **Status:** [FINAL / REQUIRES_COPY_REVIEW]
+- **Localization / translation considerations:**
   [E.G. "Designed to support long German labels up to X chars."]
 
-
-================================================================
-FILE STRUCTURE & NAMING
-================================================================
-
-File naming convention:
-- Pattern: [PROJECT_KEY]_[FEATURE]_[PLATFORM]_v[VERSION]
+## File Structure & Naming
+**File naming convention:**
+- **Pattern:** [PROJECT_KEY]_[FEATURE]_[PLATFORM]_v[VERSION]
   e.g. MARKETING_SIGNUP_WEB_v1.2
 
-Structure inside design tool:
-- Pages/sections:
+**Structure inside design tool:**
+- **Pages/sections:**
   - [01 – FOUNDATIONS (COLORS, TYPE, GRID)]
   - [02 – COMPONENTS]
   - [03 – FLOWS – SIGNUP]
   - [04 – FLOWS – ACCOUNT]
   - [05 – EXPERIMENTS / ARCHIVE]
 
-Versioning:
-- Current version: [vX.Y]
-- Previous major versions archived in: [FOLDER_OR_LINK]
+**Versioning:**
+- **Current version:** [vX.Y]
+- **Previous major versions archived in:** [FOLDER_OR_LINK]
 
+## Assets & Exports
+**Exportable assets included:**
+- **Icon set:** [FOLDER_ORCOMPONENT_SET_NAME, FORMAT (SVG/PNG/WEBP)]
+- **Logos/brand marks:** [FOLDER_ORCOMPONENT_SET_NAME]
+- **Illustrations/imagery:** [FOLDER_ORCOMPONENT_SET_NAME]
 
-================================================================
-ASSETS & EXPORTS
-================================================================
-
-Exportable assets included:
-- Icon set: [FOLDER_ORCOMPONENT_SET_NAME, FORMAT (SVG/PNG/WEBP)]
-- Logos/brand marks: [FOLDER_ORCOMPONENT_SET_NAME]
-- Illustrations/imagery: [FOLDER_ORCOMPONENT_SET_NAME]
-
-Export details:
-- Default export format for implementation:
+**Export details:**
+- **Default export format for implementation:**
   [E.G. SVG FOR ICONS, PNG OR WEBP FOR IMAGERY, 1X/2X SCALES]
-- Asset naming convention:
+- **Asset naming convention:**
   [E.G. icon/16/primary-button__[STATE] ]
 
 If developers need additional export sizes or formats:
 - Please request via [PREFERRED_CHANNEL] so we can update the
   design source rather than editing exports manually.
 
-
-================================================================
-IMPLEMENTATION GUIDANCE
-================================================================
-
-Intended implementation details:
-- Target tech stack / framework:
+## Implementation Guidance
+**Intended implementation details:**
+- **Target tech stack / framework:**
   [E.G. REACT + TAILWIND, SWIFTUI, ANDROID JETPACK COMPOSE]
-- Layout grid assumptions:
+- **Layout grid assumptions:**
   [E.G. 12-COLUMN GRID, 8PX BASE SPACING]
-- Supported browsers/devices (as discussed with devs):
+- **Supported browsers/devices (as discussed with devs):**
   [TARGET_BROWSERS_AND_MINIMUM_OS_VERSIONS]
 
-Interaction notes:
+**Interaction notes:**
 - Animations, transitions, and micro-interactions are documented in:
   [LINK_TO_ANIMATIONS_PAGE_OR_PROTOTYPE]
-- Error, empty, and loading states are documented for:
+- **Error, empty, and loading states are documented for:**
   [LIST_OF_KEY_COMPONENTS_OR_FLOWS]
 
-
-================================================================
-RECOMMENDED TESTING BEFORE RELEASE
-================================================================
-
+## Recommended Testing Before Release
 To reduce implementation issues and mismatches, the following tests
 are strongly recommended before launch:
 
 Design vs. build review:
-- Compare implemented screens against:
+- **Compare implemented screens against:**
   [LINK_TO_FINAL_DESIGN_FILE/PROTOTYPE]
 - Conduct a joint review session with design + dev to resolve
   discrepancies.
 
-Cross-device / cross-browser checks:
-- Test on agreed target browsers and OS versions:
+**Cross-device / cross-browser checks:**
+- **Test on agreed target browsers and OS versions:**
   [LIST_OF_TARGETS]
-- Verify responsive behavior at key breakpoints:
+- **Verify responsive behavior at key breakpoints:**
   [E.G. 360PX, 768PX, 1024PX, 1440PX]
 
-Functional and interaction checks:
-- Validate that all flows listed above are:
+**Functional and interaction checks:**
+- **Validate that all flows listed above are:**
   - Reachable from expected entry points.
   - Handling edge/error/empty states as designed.
 
-Accessibility checks:
-- Run basic automated checks and spot checks with:
+**Accessibility checks:**
+- **Run basic automated checks and spot checks with:**
   [E.G. LIGHTHOUSE, AXE, PLATFORM_SPECIFIC_TOOLS]
 - Validate keyboard navigation and focus states (web).
 - Validate minimum tap target sizes and readable text (mobile).
 
-Performance and content:
+**Performance and content:**
 - Confirm that images are optimized and appropriate formats are used.
 - Confirm all copy, numbers, and legal text are up to date and approved.
 
-
-================================================================
-USAGE, MODIFICATION & MAINTENANCE
-================================================================
-
-Source of truth:
+## Usage, Modification & Maintenance
+**Source of truth:**
 - The following is considered the current source of truth for design:
   [LINK_TO_PRIMARY_DESIGN_FILE_OR_DOC]
 
-Future changes:
+**Future changes:**
 - Any changes to UX, visuals, copy, or flows after this handoff
   should be:
   - Discussed with [DESIGNER_OR_TEAM_NAME], and
   - Reflected back into the design source to avoid drift.
 
-Third-party modification:
+**Third-party modification:**
 - Direct modification of design files by third parties may result
   in inconsistencies or lost components. Where possible, please
   request changes through the design team.
 
-
-================================================================
-LIMITATION OF LIABILITY & DISCLAIMER
-================================================================
-
+## Limitation Of Liability & Disclaimer
 By using these design files and documentation, the client and
 implementation team acknowledge and agree to the following:
 
@@ -266,7 +219,7 @@ implementation team acknowledge and agree to the following:
   - Reviewing and approving the final implemented product prior
     to launch.
 
-- The designer does not guarantee:
+- **The designer does not guarantee:**
   - That the implementation will be free from defects, security
     vulnerabilities, or compatibility issues in all environments.
   - Specific business outcomes (e.g. conversion lifts, revenue,
@@ -289,15 +242,11 @@ This README does not replace a formal services contract or
 master services agreement. Parties should refer to their signed
 agreement for full legal terms.
 
+## Version History
+**Version:** [V1.0]
+**Date:** [DATE]
+**Prepared by:** [DESIGNER_NAME]
 
-================================================================
-VERSION HISTORY
-================================================================
-
-Version: [V1.0]
-Date: [DATE]
-Prepared by: [DESIGNER_NAME]
-
-Change log:
+**Change log:**
 - [DATE] – [SUMMARY_OF_CHANGES]
 - [DATE] – [SUMMARY_OF_CHANGES]
