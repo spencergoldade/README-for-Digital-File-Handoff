@@ -2,7 +2,7 @@
 
 This document is a **template** for handing off digital, product, and UX/UI design work to developers and other collaborators. It includes more detail and sections than you will typically use on a single project.
 
-You are **not** expected to complete every section. Treat this as a menu: select the sections that are relevant for the product you’re shipping, remove the rest, and customize the language so it fits your team and tools.
+You are **not** expected to complete every section. Treat this as a menu: select the sections relevant to the product you’re shipping, remove the rest, and customize the language to fit your team and tools.
 
 It is intentionally provided to you in plain text so it can be accessible to clients and collaborators.
 
@@ -13,13 +13,13 @@ It is intentionally provided to you in plain text so it can be accessible to cli
 - Fork, remix, etc.
 
 ## Project Overview
-**Project Title:** [PROJECT_TITLE]
-**Client/Organization:** [CLIENT_NAME]
-**Designer/Studio:** [DESIGNER_OR_STUDIO_NAME]
-**Primary Contact:** [DESIGNER_CONTACT_NAME]
-**Email:** [DESIGNER_EMAIL]
-**Slack/PM Channel (if applicable):** [CHANNEL_NAME_OR_URL]
-**Date Prepared:** [DATE]
+- **Project Title:** [PROJECT_TITLE]
+- **Client/Organization:** [CLIENT_NAME]
+- **Designer/Studio:** [DESIGNER_OR_STUDIO_NAME]
+- **Primary Contact:** [DESIGNER_CONTACT_NAME]
+- **Email:** [DESIGNER_EMAIL]
+- **Slack/PM Channel (if applicable):** [CHANNEL_NAME_OR_URL]
+- **Date Prepared:** [DATE]
 
 **Project Summary:**
 [SHORT_DESCRIPTION_OF_PRODUCT_AND_SCOPE
@@ -38,8 +38,7 @@ assets for implementation.
 - [DISCOVERY WIREFRAMES / HI-FI VISUAL DESIGN / PRODUCTION-READY / DESIGN SYSTEM]
 
 ## Software & Access Requirements
-Some files require specific tools or accounts to view or inspect
-properly.
+Some files require specific tools or accounts to be viewed or inspected properly.
 
 **Primary design tools used:**
 - [E.G. Figma – VERSION, TEAM/ORG NAME]
@@ -143,7 +142,7 @@ If developers need additional export sizes or formats:
 
 ## Implementation Guidance
 **Intended implementation details:**
-- **Target tech stack / framework:**
+- **Target tech stack/framework:**
   [E.G. REACT + TAILWIND, SWIFTUI, ANDROID JETPACK COMPOSE]
 - **Layout grid assumptions:**
   [E.G. 12-COLUMN GRID, 8PX BASE SPACING]
@@ -157,8 +156,7 @@ If developers need additional export sizes or formats:
   [LIST_OF_KEY_COMPONENTS_OR_FLOWS]
 
 ## Recommended Testing Before Release
-To reduce implementation issues and mismatches, the following tests
-are strongly recommended before launch:
+To reduce implementation issues and mismatches, the following tests are strongly recommended before launch:
 
 Design vs. build review:
 - **Compare implemented screens against:**
@@ -169,7 +167,7 @@ Design vs. build review:
 **Cross-device / cross-browser checks:**
 - **Test on agreed target browsers and OS versions:**
   [LIST_OF_TARGETS]
-- **Verify responsive behavior at key breakpoints:**
+- **Verify responsive behaviour at key breakpoints:**
   [E.G. 360PX, 768PX, 1024PX, 1440PX]
 
 **Functional and interaction checks:**
@@ -204,8 +202,7 @@ Design vs. build review:
   request changes through the design team.
 
 ## Limitation Of Liability & Disclaimer
-By using these design files and documentation, the client and
-implementation team acknowledge and agree to the following:
+By using these design files and documentation, the client and implementation team acknowledge and agree to the following:
 
 - The designer has provided digital design deliverables and guidance
   based on the requirements, constraints, and information supplied
